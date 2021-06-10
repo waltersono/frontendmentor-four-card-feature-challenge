@@ -1,0 +1,146 @@
+:root {
+    --color-red: hsl(0, 78%, 62%);
+    --color-cyan: hsl(180, 62%, 55%);
+    --color-orange: hsl(34, 97%, 64%);
+    --color-blue: hsl(212, 86%, 64%);
+
+    --color-blue-1: hsl(234, 12%, 34%);
+    --color-blue-2: hsl(229, 6%, 66%);
+    --color-gray: hsl(0, 0%, 98%);
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    background-color: var(--color-gray);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.mb-sm {
+    margin-bottom: 1.5rem;
+}
+
+.mb-md {
+    margin-bottom: 2.5rem;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header {
+    padding: 5rem 0;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.header__h1 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.header__h1--bold {
+    font-weight: 600;
+}
+
+.header__paragraph {
+    font-weight: 200;
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: var(--color-blue-1);
+}
+
+.main {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main__center {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.2);
+    text-align: right;
+}
+
+.card__title {
+    font-weight: 600;
+    color: var(--color-blue-1);
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.card__description {
+    font-size: 1rem;
+    color: var(--color-blue-2);
+    margin-bottom: 4rem;
+    text-align: left;
+}
+
+.card__icon {
+    height: 4rem;
+    width: 4rem;
+}
+
+.card--cyan {
+    border-top: 0.3rem solid var(--color-cyan);
+}
+
+.card--red {
+    border-top: 0.3rem solid var(--color-red);
+}
+
+.card--orange {
+    border-top: 0.3rem solid var(--color-orange);
+}
+
+.card--blue {
+    border-top: 0.3rem solid var(--color-blue);
+}
+
+@media (min-width: 1000px) {
+    .main {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1;
+    }
+}
