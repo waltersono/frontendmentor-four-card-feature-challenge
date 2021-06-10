@@ -24,15 +24,15 @@ Users should be able to:
 
 
 #### Mobile
-![Mobile](./screenshot-mobile.jpg)
+![Mobile](./screenshot-mobile.png)
 
 #### Desktop
-![Desktio](./screenshot-desktop.jpg)
+![Desktio](./screenshot-desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/waltersono/frontendmentor-four-card-feature-challenge](https://github.com/waltersono/frontendmentor-four-card-feature-challenge)
+- Live Site URL: [https://waltersono.github.io/frontendmentor-four-card-feature-challenge/](https://waltersono.github.io/frontendmentor-four-card-feature-challenge/)
 
 ## My process
 
