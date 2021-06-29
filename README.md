@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/waltersono/frontendmentor-four-card-feature-challenge](https://github.com/waltersono/frontendmentor-four-card-feature-challenge)
-- Live Site URL: [https://waltersono.github.io/frontendmentor-four-card-feature-challenge/](https://waltersono.github.io/frontendmentor-four-card-feature-challenge/)
+- Solution URL: [Source code](https://github.com/waltersono/frontendmentor-four-card-feature-challenge)
+- Live Site URL: [Live project](https://waltersono.github.io/frontendmentor-four-card-feature-challenge/)
 
 ## My process
 
@@ -42,6 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Media queries
 
 ## Author
 
